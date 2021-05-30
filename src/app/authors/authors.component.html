@@ -1,0 +1,11 @@
+<h2>{{ authors.length }} Authors</h2>
+<!-- O también así: 
+<h2>{{ authors.length + ' Authors' }} Authors</h2>
+Pero Mosh dice que el primero es más limpio
+-->
+
+<ul>
+    <li *ngFor=" let author of authors">
+        {{ author }}
+    </li>
+</ul>

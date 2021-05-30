@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+/* Nos vamos a la carpeta en la que está 
+bootstrap para poder usarlo */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* Ponemos esto para que no esté tan pegado
+al borde */
+body { padding: 20px; }
